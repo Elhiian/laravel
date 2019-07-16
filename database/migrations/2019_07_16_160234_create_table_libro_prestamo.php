@@ -19,7 +19,6 @@ class CreateTableLibroPrestamo extends Migration
             $table->unsignedInteger("libro_id");
             $table->date("fecha_prestamo");
             $table->string("prestado_a",100);
-            $table->string("prestamdo_a",100);
             $table->boolean("estado");
             $table->date("fecha_devolucion")->nullable();
             $table->timestamps();
