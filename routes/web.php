@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('bienvenido elian es el mejor siempre');
+    return view('Elian software developer');
 });
