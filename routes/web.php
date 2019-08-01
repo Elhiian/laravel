@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('Elian software developer');
+    return view('welcome');
+});
+
+Route::get('foo', function () {
+    return 'hola elian';
 });
